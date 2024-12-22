@@ -1,0 +1,55 @@
+.motivation-row {
+    background-color: black;
+    color: red;
+    font-size: 4.5rem;
+    font-weight: normal;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+  }
+  
+  .scroll-container {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 40s linear infinite;
+  }
+  .scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-right 40s linear infinite;
+  }
+  
+  .scroll-left .scroll-content {
+    animation-name: scroll-left;
+  }
+  
+  .scroll-right .scroll-content {
+    animation-name: scroll-right;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  

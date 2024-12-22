@@ -1,0 +1,39 @@
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .trusted-badge {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 0.9rem;
+  }
+  

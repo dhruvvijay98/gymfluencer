@@ -1,0 +1,71 @@
+
+
+.hero-with-features {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+  color: red;
+}
+
+.hero p {
+  font-size: 10px;
+  color: #ccc;
+  margin-bottom: 30px;
+  font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+}
+
+.benefit-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+ 
+}
+
+@media (max-width: 768px) {
+  .benefit-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
+
+.features-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.phone-mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-image {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+
+ 
+
+

@@ -1,0 +1,11 @@
+body {
+  font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.App {
+  min-height: 100vh; /* Ensures the div takes the full viewport height */
+}
